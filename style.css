@@ -1,0 +1,45 @@
+body{
+    margin: 0px;
+    min-width: 100vh;
+    background:
+    radial-gradient(ellipse 100% 100% at 50% 120%, rgb(92, 0, 61), transparent),
+    rgb(41, 0, 27);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color:rgb(188, 137, 255);
+
+    font-family: monospace, Arial, sans-serif;
+}
+
+header h1 {
+    text-align: center;
+    width: fit-content;
+    justify-self: center;
+    font-weight: 900;
+}
+
+.game-screen {
+    justify-self:center;
+    width: 99vh;
+    height: 80vh;
+    background-color: rgba(137, 43, 226, 0.068);
+    padding: 1%;
+    position: relative;
+    cursor: crosshair;
+}
+
+#timer {
+    text-align: center;
+}
+
+#target {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    cursor:inherit;
+    text-shadow: 0px 0px 15px white;
+}
+
+#kill-count {
+    text-align: center;
+}
